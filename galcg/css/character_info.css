@@ -1,0 +1,333 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#container{
+	height: 4000px;
+	width: 100%;
+	position: absolute;
+}
+#top_menu{
+	/*display: flex;*/
+	position: fixed;
+	height: 55px;
+	width: 100%;
+	background: #002A33;
+	z-index: 1000;
+}
+#body{
+	width: 100%;
+	height: 3845px;
+	background-image:url("../pic_fgowiki/wiki_background.jpg");
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-position:center top;
+	z-index: 1;
+}
+#bottom_menu{
+	/*position: absolute;*/
+	/*position: fixed;*/
+	/*z-index:1000;*/
+	bottom: 0px;
+	height:580px;
+	width: 100%;
+	/*overflow: hidden;*/
+	background: #002A33;
+}
+#message_body{
+	display: flex;
+	flex-direction: column;
+	/*position:absolute;*/
+	/*top: 10%;*/
+	width:1066px;
+	height:100%;
+	margin: 0 auto;
+	background-color: #EBEBEB;
+}
+#shabi{
+	flex-direction: row-reverse;
+	height: 180px;
+	width: 100%;
+	background-color: #FFFFFF;
+}
+#servant_menu{
+	/*display: flex;*/
+	margin-top: 75px;
+	height: 105px;
+	width: 100%;
+	background-color: rgba(41, 16, 89, 1);
+	z-index:2;
+}
+#logo_frame{
+	position: relative;
+	width: 210px;
+	height: 75px;
+	left: 35px;
+	top: 15px;
+	/*background-color: lime;*/
+}
+#logo_frame img{
+	position: relative; 
+	top: 3px;
+	left: -13px;
+}
+#servant_menu_bg_frame{
+	position: relative;
+	width: 420px;
+	height: 100px;
+	left: 650px;
+	top: -125px;
+	/*background-color: lime;*/
+	opacity: 0.2;
+	z-index: 1;
+}
+#servant_menu_bg_frame img{
+	width: 100%;
+	height: 100%;
+}
+#title_frame{
+	position:relative;
+	width: 600px;
+	height: 50px;
+	left: 280px;
+	top: -50px;
+	/*background-color: lime;*/
+	font-size: 19px;
+	font-family: 宋体;
+
+}
+#top_menu_1{
+	/*background-color: lime;*/
+	height: 100%;
+	width: 10.5%;
+}
+#top_menu_2{
+	position: relative;
+	display: flex;
+	/*background-color: lime;*/
+	margin-left: 10px;
+	height: 100%;
+	width: 32%;
+	left: 145px;
+	top: -55px;
+	z-index:0;
+}
+#top_menu_3{
+	position: relative;
+	margin-left: 497px;
+	height: 100%;
+	width: 20%;
+	top: -110px;
+	float: right;
+}
+.iconfont{
+	position: absolute;
+}
+#sword_icon{
+	font-size: 30px;
+	color: #00DDD8;
+	top: 10px;
+	left:15px;
+}
+#top_menu_1_text{
+	position: relative;
+	font-size:22px;
+	top:14px;
+	left: 48px;
+}
+.top_menu_2_text{
+	position: relative;
+	font-size: 18px;
+	color:#00DDD8;
+	top: 17px;
+	margin-left: 25px;
+	letter-spacing: -2px;
+}
+.top_menu_2_text:hover{
+	color: #FFFFFF;
+
+}
+#change_wiki{
+	display: flex;
+	position: relative;
+	height: 20px;
+	width: 72px;
+	/*border-style: dashed;*/
+	/*border-width: 1px;*/
+	/*border-color: red;*/
+	top: 16px;
+	left: 25px;
+}
+#top_menu_2_text5{
+	font-size: 18px;
+	color:#00DDD8;
+	letter-spacing: -2px;
+}
+#triangle{
+	font-size: 12px;
+	color: #FF6468;
+	left: 55px;
+	top: 3px;
+}
+#wiki_down{
+	background-color: lime;
+}
+#search_icon{
+	font-size: 25px;
+	color: #00DDD8;
+	/*top: 13px;*/
+}
+#top_menu_3_1{
+	display: flex;
+	width: 75px;
+	height:20px;
+	position: relative;
+	top: 17px;
+	left: -20px;
+	/*border-color: red;*/
+	/*border-style: dashed;*/
+	/*border-width:1px;*/
+}
+#top_menu_3_2{
+	display: flex;
+	position: relative;
+	top: -10px;
+	left: 75px;
+	height: 30px;
+	width: 50px;
+	/*border-color: red;*/
+	/*border-style: dashed;*/
+	/*border-width:1px;*/
+
+}
+#top_menu_3_text_1{
+	font-size: 14px;
+	color: #00DDD8;
+	position: relative;
+	left: 26px;
+	top: 4px;
+}
+#top_menu_3_text_1:hover{
+}
+#user_icon{
+	font-size: 30px;
+	color: #00DDD8;
+	/*top: 9px;*/
+}
+#triangle2{
+	font-size: 12px;
+	color: #FF6468;
+	top: 9px;
+	left: 35px;
+}	
+#start_your_engine{
+	position: relative;
+	height:34px;
+	width: 117px;
+	border-color: #CCCCCC;
+	border-style: solid;
+	border-width: 1px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+	/*top: -100px;*/
+	/*left: 1220px;*/
+	top: -40px;
+	left: 140px;
+
+	color: #CCCCCC;
+	font-size: 12px;
+	text-align: center;
+	line-height: 34px;
+}
+#body1{
+	/*background-color: lime;*/
+	width: 96%;
+	height: 2000px;
+	margin: 0 auto;
+	margin-top: 12px;
+	background-color: #FFFFFF;
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
+}
+.plate_label{
+	width: 100%;
+	height: 34px;
+	background: linear-gradient(to right, #002A33,70%, #00DDD8);
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
+	border-bottom-left-radius: 12px;
+	border-bottom-right-radius: 12px;
+
+	
+}
+.fenqu{
+	position: relative;
+	color: #00DDD8;
+	font-size: 16px;
+	top: 3px;
+	left: 10px;
+}
+#all_games{
+	top: 7px;
+}
+.show_column_2dashed{
+	display: flex;
+	height: 162px;
+	width: 98%;
+	margin: 0 auto;
+	border-style: dashed none dashed;
+	border-width: 1px;
+	border-color: #CDCDCD;
+}
+.show_column{
+	display: flex;
+	height: 162px;
+	width: 98%;
+	margin: 0 auto;
+}
+.show_row{
+	display: flex;
+	width: 50%;
+	height: 90%;
+	/*border-style:solid solid solid;*/
+	border-width: 1px;
+	/*border-color: gray;*/
+	margin: auto auto;
+}
+.show_row_image{
+	height: 100%;
+	width: 250px;
+
+	/*border-style:solid solid solid;*/
+	border-width: 1px;
+	/*border-color: red;*/
+}
+.show_row_image img{
+	width: 100%;
+	height: 100%;
+}
+.show_row_text{
+	margin-left: 10px;
+	height: 100%;
+	width: 250px;
+
+	/*border-style:solid solid solid;*/
+	border-width: 1px;
+	/*border-color: lime;*/
+}
+.show_row_text_title{
+	font-size: 14px;
+	color: #505050;
+}
+.show_row_text_1{
+	font-size: 12px;
+	color: #505050;
+}
+a{
+	text-decoration: none;
+}
+h2{
+	color: #FFFFFF;
+}

@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="./css/character_info.css" type="text/css">
+	<link rel="stylesheet" href="./css/list_login.css" type = "text/css">
+	<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="./js/login_frame.js" type="text/javascript"></script>
+	<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="./js/change_userIcon.js" type="text/javascript"></script>
+	<style>
+	@font-face {
+	font-family: 'iconfont';  /* project id 1438018 */
+ 	src: url('//at.alicdn.com/t/font_1438018_fg8zrvn4ywj.eot');
+ 	src: url('//at.alicdn.com/t/font_1438018_fg8zrvn4ywj.eot?#iefix') format('embedded-opentype'),
+ 	url('//at.alicdn.com/t/font_1438018_fg8zrvn4ywj.woff2') format('woff2'),
+ 	url('//at.alicdn.com/t/font_1438018_fg8zrvn4ywj.woff') format('woff'),
+ 	url('//at.alicdn.com/t/font_1438018_fg8zrvn4ywj.ttf') format('truetype'),
+ 	url('//at.alicdn.com/t/font_1438018_fg8zrvn4ywj.svg#iconfont') format('svg');
+	}	
+
+	.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;}
+	</style>
+</head>
+<body>
+
+
+
+
+
+
+	<!--主窗体-->
+	<div id="container">
+	<header id="top_menu">
+		<div id="top_menu_1">
+			<i class="iconfont" id="sword_icon">&#xe636;</i>
+			<a href=""><h2 id="top_menu_1_text">CALPIN</h2></a>
+		</div>
+		<div id="top_menu_2">
+			<a href=""><h2 class="top_menu_2_text" id="top_menu_2_text1">GAMES</h2></a>
+			<a href=""><h2 class="top_menu_2_text" id="top_menu_2_text2">MOVIES</h2></a>
+			<a href=""><h2 class="top_menu_2_text" id="top_menu_2_text3">TV</h2></a>
+			<a href=""><h2 class="top_menu_2_text" id="top_menu_2_text4">VIDEO</h2></a>
+			<a href="">
+			<div id="change_wiki" onmouseover="show_top_menu_2_text5()" onmouseout="unshow_top_menu_2_text5()">
+			<h2 id="top_menu_2_text5">WIKIS</h2>
+			<i class="iconfont" id="triangle">&#xe642;</i>
+			</div>
+			</a>
+		</div>
+		<div id="top_menu_3" >
+			<a href="">
+			<div id="top_menu_3_1" onmouseover="show_top_menu_3_1()" onmouseout="unshow_top_menu_3_1()">
+			<i class="iconfont" id="search_icon">&#xe8ef;</i>
+			<p id="top_menu_3_text_1">Search</p>
+			</div>
+			</a>
+			<a href="./login.html">
+			<div id="top_menu_3_2" onmouseover="show_userIcon_triangle()" onmouseout="unshow_userIcon_triangle()">
+			<i class="iconfont" id="user_icon">&#xe682;</i>
+			<i class="iconfont" id="triangle2">&#xe642;</i>
+			</div>
+			<!--<div id="user_icon_list" onmouseout="unshow_login_list()">-->
+			<!--<div id="user_icon_list1">-->
+			<!--<div id="register"></div>-->
+			<!--<div id="sign_in">-->
+			<!--<a href="./login.html"><div id="sign_in_icon"><h4>SIGN IN<h4></div></a>-->
+			<!--</div>-->
+			<!--</div>-->
+			<!--</div>-->
+			</a>
+			<a href=""><div id="start_your_engine"><h4>start engine</h4></div></a>
+		</div>
+	</header>
+	<div id="body">
+		<div id="message_body">
+			<div id="shabi">
+				<div id="servant_menu">
+					<div id="logo_frame">
+						<img src="./pic_fgowiki/logo.png" alt="">
+					</div>
+					<div id="title_frame">
+						<a href=""><h2>Fate/Grand Order Wikia</h2></a>
+					</div>
+					<div id="menu_frame"></div>
+					<div id="servant_menu_bg_frame">
+						<img src="./pic_fgowiki/115.png" alt="">
+					</div>
+				</div>
+			</div>
+			<div id="body1">
+				<div class="plate_label"><h3 class="fenqu">综合区</h3></div>
+				<div class="show_column">
+					<div class="show_row">
+						<div class="show_row_image">
+							<img src="./pic_fgowiki/综合区/1.png" alt="aa">
+						</div>
+						<div class="show_row_text">
+							<a href=""><h3 class="show_row_text_title">新人报到区</h3></a>
+							<p class="show_row_text_1">主题：1万，帖数：6万</p>
+						</div>
+					</div>
+					<div class="show_row">
+						<div class="show_row_image">
+							<img src="./pic_fgowiki/综合区/2.png" alt="">
+						</div>
+						<div class="show_row_text">
+							<a href=""><h3 class="show_row_text_title">讨论版（不限制话题）</h3></a>
+							<p class="show_row_text_1">主题：62，帖数：426</p>
+						</div>
+					</div>
+				</div>
+				<div class="show_column_2dashed">
+					<div class="show_row">
+						<div class="show_row_image">
+							<img src="./pic_fgowiki/综合区/3.png" alt="">
+						</div>
+						<div class="show_row_text">
+							<a href=""><h3 class="show_row_text_title">论坛水区</h3></a>
+							<p class="show_row_text_1">主题：3788，帖数：3万</p>
+						</div>
+					</div>
+					<div class="show_row">
+						<div class="show_row_image">
+							<img src="./pic_fgowiki/综合区/4.png" alt="">
+						</div>
+						<div class="show_row_text">
+							<a href=""><h3 class="show_row_text_title">求物区</h3></a>
+							<p class="show_row_text_1">主题：2640，帖数：1万</p>
+						</div>
+					</div>
+				</div>
+				<div class="show_column">
+					<div class="show_row">
+						<div class="show_row_image">
+							<img src="./pic_fgowiki/综合区/5.jpg" alt="">
+						</div>
+						<div class="show_row_text">
+							<a href=""><h3 class="show_row_text_title">社区意见箱子</h3></a>
+							<p class="show_row_text_1">主题：115，帖数：405</p>
+						</div>
+					</div>
+					<div class="show_row">
+						<div class="show_row_image">
+							<img src="./pic_fgowiki/综合区/6.jpg" alt="">
+						</div>
+						<div class="show_row_text">
+							<a href=""><h3 class="show_row_text_title">事物处理与反馈区</h3></a>
+							<p class="show_row_text_1">主题：158，帖数：636</p>
+						</div>
+					</div>
+				</div>
+				<div class="plate_label"><h3 class="fenqu" id="all_games">Games & Animan</h3></div>
+
+				<div class="show_column">
+					<div class="show_row">
+						<div class="show_row_image">
+							<img src="./pic_fgowiki/Games/1.jpg" alt="aa">
+						</div>
+						<div class="show_row_text">
+							<a href="./fate_zero_info.html"><h3 class="show_row_text_title">Fate Zero</h3></a>
+							<p class="show_row_text_1">作者：虚渊玄</p>
+							<p class="show_row_text_1">监督：苍井启</p>
+							<p class="show_row_text_1">人设原案：武内崇</p>
+							<p class="show_row_text_1">剧本：佐藤和治、桧山彬、吉田晃浩、实弥岛巧</p>
+							<p class="show_row_text_1">角色设计：须藤友德、碇谷敦</p>
+							<p class="show_row_text_1">色彩设计：千叶絵美</p>
+						</div>
+					</div>
+					<div class="show_row">
+						<div class="show_row_image">
+							<img src="./pic_fgowiki/Games/2.jpg" alt="">
+						</div>
+						<div class="show_row_text">
+							<a href=""><h3 class="show_row_text_title">Fate Stay Night</h3></a>
+							<p class="show_row_text_1">制作：Fate Project</p>
+							<p class="show_row_text_1">监督：山口祐司</p>
+							<p class="show_row_text_1">总制片：西村润</p>
+							<p class="show_row_text_1">原始剧本：奈须蘑菇</p>
+							<p class="show_row_text_1">动画剧本：佐藤卓哉</p>
+							<p class="show_row_text_1">原始人物设计／监修：武内崇</p>
+						</div>
+					</div>
+				</div>
+				<div class="show_column_2dashed">
+					<div class="show_row">
+						<div class="show_row_image">
+							<img src="./pic_fgowiki/Games/3.jpg" alt="">
+						</div>
+						<div class="show_row_text">
+							<a href=""><h3 class="show_row_text_title">Fate Kaleid Liner</h3></a>
+							<p class="show_row_text_1">原作：广山弘、TYPE-MOON</p>
+							<p class="show_row_text_1">监督：大沼心、神保昌登、高桥贤</p>
+							<p class="show_row_text_1">角色设计：牛岛希、平田和也</p>
+							<p class="show_row_text_1">音乐：加藤达也</p>
+							<p class="show_row_text_1">动画制作：SILVER LINK.</p>
+							<p class="show_row_text_1">制作：“魔法少女☆伊莉雅→2wei!→2wei Herz!→3rei!!”制作委员会</p>
+						</div>
+					</div>
+					<div class="show_row">
+						<div class="show_row_image">
+							<img src="./pic_fgowiki/Games/4.jpg" alt="">
+						</div>
+						<div class="show_row_text">
+							<a href=""><h3 class="show_row_text_title">Fate Apocrypha</h3></a>
+							<p class="show_row_text_1">原作：东出祐一郎/TYPE-MOON</p>
+							<p class="show_row_text_1">作品原案：近卫乙嗣</p>
+							<p class="show_row_text_1">监督：浅井义之</p>
+							<p class="show_row_text_1">美术监督：井上一宏</p>
+							<p class="show_row_text_1">色彩设计：茂木孝浩、土居真纪子</p>
+							<p class="show_row_text_1">音乐：横山克</p>
+							<p class="show_row_text_1">制作：A-1 Pictures</p>
+						</div>
+					</div>
+				</div>
+				<div class="show_column">
+					<div class="show_row">
+						<div class="show_row_image">
+							<img src="./pic_fgowiki/Games/5.jpg" alt="">
+						</div>
+						<div class="show_row_text">
+							<a href=""><h3 class="show_row_text_title">Fate Extra Last Encore</h3></a>
+							<p class="show_row_text_1">原作：TYPE-MOON、Marvelous</p>
+							<p class="show_row_text_1">系列构成：奈须磨菇</p>
+							<p class="show_row_text_1">角色原案：ワダアルコ</p>
+							<p class="show_row_text_1">角色设计：泷山真哲、山村洋贵</p>
+							<p class="show_row_text_1">美术监督：望月卓磨</p>
+							<p class="show_row_text_1">色彩设计：日比野仁</p>
+							<p class="show_row_text_1">动画制作：SHAFT</p>
+						</div>
+					</div>
+					<div class="show_row">
+						<div class="show_row_image">
+							<img src="./pic_fgowiki/Games/6.jpg" alt="">
+						</div>
+						<div class="show_row_text">
+							<a href=""><h3 class="show_row_text_title">Fate Stay Night[Heaven's Feel]</h3></a>
+							<p class="show_row_text_1">原作：奈须蘑菇、TYPE-MOON</p>
+							<p class="show_row_text_1">导演：须藤友德</p>
+							<p class="show_row_text_1">编剧：桧山彬</p>
+							<p class="show_row_text_1">人物原案：武内崇</p>
+							<p class="show_row_text_1">音乐：梶浦由记</p>
+							<p class="show_row_text_1">动画制作：ufotable</p>
+							<p class="show_row_text_1">影片发行：Aniplex</p>
+						</div>
+					</div>
+
+				</div>
+
+				<div class="show_column_2dashed">
+					<div class="show_row">
+						<div class="show_row_image">
+							<img src="./pic_fgowiki/Games/7.jpg" alt="">
+						</div>
+						<div class="show_row_text">
+							<a href=""><h3 class="show_row_text_title">卫宫家今天的饭</h3></a>
+							<p class="show_row_text_1">原作：TAa/TYPE-MOON</p>
+							<p class="show_row_text_1">角色原案：TAa</p>
+							<p class="show_row_text_1">料理监制：只野まこと</p>
+							<p class="show_row_text_1">角色设定：内村瞳子</p>
+							<p class="show_row_text_1">色彩设计：大前裕子，牛尾友里恵</p>
+							<p class="show_row_text_1">美术监督：海老沢一男</p>
+							<p class="show_row_text_1">撮影监督：吉川冴</p>
+						</div>
+					</div>
+					<div class="show_row">
+						<div class="show_row_image">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer id="bottom_menu"></footer>
+	</div>
+</body>
+</html>

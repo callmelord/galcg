@@ -1,0 +1,88 @@
+#user_icon_list {
+	width: 153px;
+	height: 193px;
+	background-color: #FFFFFF;
+	position: relative;
+	/*border: 1px solid #333;*/
+	transform: rotate(270deg);
+	/*-moz-transform: rotate(90deg);*/
+	top: -20px;
+	left: -50px;
+	/*box-shadow: 2px 2px 0px #000;*/
+	box-shadow:0px 0px 10px #000;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	/*display: none;*/
+	/*z-index:1002*/
+}
+ 
+#user_icon_list:after,#user_icon_list:before {
+	border:solid transparent;
+	content:' ';
+	height: 0;
+	left: 100%;
+	position: absolute;
+	width: 0;
+}
+ 
+#user_icon_list:after {
+	border-width: 6px;
+	top: 169px;
+}
+ 
+#user_icon_list:before {
+	border-width: 8px;
+	border-left-color:#FFFFFF;
+	top: 167px;
+}
+#user_icon_list1{
+	display: flex;
+	margin: 0 auto;
+	height: 190px;
+	width: 140px;
+	border: 1px dashed red;
+}
+#sign_in{
+	position: relative;
+	left: 10px;
+	margin: auto 0;
+	height: 170px;
+	width: 50px;
+	border: 1px dashed red;
+
+}
+#register{
+	position: relative;
+	left: 8px;
+	margin: auto 0;
+	height: 160px;
+	width: 70px;
+	border: 1px dashed lime;
+
+}
+#sign_in_icon{
+	position: relative;
+	top: 67px;
+	left: -50px;
+	height:35px;
+	width: 150px;
+	/*border: 1px dashed black;*/
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	background-color: #00DDD8;
+	transform: rotate(90deg);
+
+	font-size: 12px;
+	font-family: 宋体;
+	text-align: center;
+	line-height: 35px;
+	color: black;
+}
+#sign_in_icon:hover{
+	background-color: #006B6B;
+
+}
